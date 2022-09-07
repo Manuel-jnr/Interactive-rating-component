@@ -58,6 +58,7 @@ p{color: hsl(0, 0%, 65%);
 
 button {
     text-transform: uppercase;
+    width: 100%;
     font-size: 18px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
@@ -69,4 +70,25 @@ button {
 button:hover{
     color: hsl(25, 97%, 53%); 
     background-color: hsl(0, 0%, 100%);
+}
+
+h6 {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 64%, 50%);
+    font-family: 'Overpass', sans-serif;
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    display: grid;
+    place-items:center;
+
+}
+
+.card2 {
+    display: flex !important; 
+    align-items: center !important;
+}
+
+h1, p{
+    text-align: center;
 }
