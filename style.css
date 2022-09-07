@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+
+}
+.card{
+    height: 380px;
+    width: 380px;
+    border-radius: 30px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    background-image: linear-gradient(hsl(213, 19%, 18%), #15202B);
+}
+
+.card_img{
+    display: grid;
+    place-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 23%);
+}
+
+h1{color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+p{color: hsl(0, 0%, 65%); 
+    font-family: 'Overpass', sans-serif;
+    margin-top: -10px;
+}
+
+.numbers { 
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.numbers > span {
+    background-color: hsl(213, 19%, 23%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.numbers > span:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: hsl(25, 97%, 53%); 
+    background-color: hsl(0, 0%, 100%);
+}
